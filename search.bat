@@ -1,0 +1,1 @@
+python "D:\\IMDbinContextMenu\\search.py" %1
