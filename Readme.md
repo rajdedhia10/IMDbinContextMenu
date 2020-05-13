@@ -4,30 +4,30 @@ Simple program to add `Search on IMDb` to your Windows 10 Context Menu to automa
 ---
 * [What is this](#what-is-this)
 * [Installation](#installation)
-* [FAQs](#FAQs)
+* [FAQs](#faqs)
 * [Bugs](#bugs)
 * [Probable Feature Additions](#probable-feature-additions)
 * [Credits](#credits)
 ---
 
 ## What is this
-A simple program that searches for IMDb page of a movie on your computer in just a couple of clicks.
-You just need to right click on the media file of the movie and click the `Search on IMDb` button.
+A simple program that searches for IMDb page of a movie on your computer in just a couple of clicks.  
+You just need to right click on the media file of the movie and click the `Search on IMDb` button.  
 A new tab will be opened on your browser and the movie's page will be searched for on IMDb.
 
 <a href="https://ibb.co/c1PrTM6"><img src="https://i.ibb.co/yXDQsG6/Screenshot-114.png" alt="Screenshot-114" border="0"></a>
 
 ## Installation
-1. Download the preferred varient from the [Download Link]()
-   Check FAQs section for guidance
-2. Extract the downloaded zip file to `D:\IMDbinContextMenu`
+1. Download the preferred varient from the [Download Link](https://github.com/rajdedhia10/IMDbinContextMenu/releases/)  
+Check FAQs section for guidance regarging varient
+2. Extract the downloaded zip file to `D:\IMDbinContextMenu`<br>
    Note: You can extract to any location you wish but you need the make changes to the **AddToRegistry.reg** and **search.bat** file
    eg. If you extract to `C:\Users\YourUsername\Downloads` then your files should look like this
    AddToRegistry.reg line 7:
    ```
    @="\"C:\\Users\\YourUsername\\Downloads\\search.bat\" \"%1\""
    ```
-   search.bat line 1:
+   search.bat line 1:  
    py method:
    ```
    python "C:\\Users\\YourUsername\\Downloads\\search.py" %1
@@ -40,14 +40,14 @@ A new tab will be opened on your browser and the movie's page will be searched f
 4. Done, as simple as that
 
 ## FAQs
-* Why does this exist?
+* Why does this exist?  
 A. Looking up a movie that you have on your system on IMDb in a lenghy process. This program exists to automate the process to just a couple of clicks.
 
-* What varient should I download?
+* What varient should I download?  
 A. Py varient if you have Python installed on your system
    exe varient if you do not have python installed on your system
 
-* How to uninstall the program?
+* How to uninstall the program?  
 A. Click on Start -> Type reg -> Press Enter on Registry Editor -> Navigate to ```HKEY_CLASSES_ROOT\*\shell\Run script``` -> Delete ```Run script```
 
 ## Bugs
