@@ -55,9 +55,10 @@ A. Click on Start -> Type reg -> Press Enter on Registry Editor -> Navigate to `
 ---
 
 ## Bugs
-* The program fails when year of the movie is enclosed in brackets
-eg: ```Movie.Name.(1999).720p.10bit.mp4```
----
+~~* The program fails when year of the movie is enclosed in brackets
+eg: ```Movie.Name.(1999).720p.10bit.mp4```~~  
+Fixed. Thanks to [amogh-w](https://github.com/amogh-w)
+
 
 ## Probable Feature Additions
 Search on multiple Rating websites at once such as Metacritic, Rotten Tomatoes etc.
