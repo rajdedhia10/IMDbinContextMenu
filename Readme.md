@@ -51,7 +51,7 @@ A. Py varient if you have Python installed on your system
    exe varient if you do not have python installed on your system
 
 * How to uninstall the program?  
-A. Click on Start -> Type reg -> Press Enter on Registry Editor -> Navigate to ```HKEY_CLASSES_ROOT\*\shell\Run script``` -> Delete ```Run script```
+A. Click on Start -> Type regedit -> Press Enter on Registry Editor -> Navigate to ```HKEY_CLASSES_ROOT\*\shell\Run script``` -> Delete ```Run script```
 ---
 
 ## Bugs
