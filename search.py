@@ -41,6 +41,7 @@ for word in temp:
 
 link = 'https://www.imdb.com/find?q='
 link = link + final
+
 # print("Opening {} in browser.".format(link))
 
 webbrowser.open(link, new=2)
