@@ -13,11 +13,13 @@ def remove_symbols(word):
 
     return temp_word
 
+
 def isNumber(s) :
     for i in range(len(s)) :
         if s[i].isdigit() != True :
             return False
     return True
+
 
 name = sys.argv
 head, tail = os.path.split(name[1])
@@ -27,7 +29,9 @@ temp = tail.split()
 if (len(temp)==1):
     temp = tail.split('.')
 
+    
 temp = [remove_symbols(word) for word in temp]
+
 
 for word in temp:
     if isNumber(word):
@@ -39,8 +43,10 @@ for word in temp:
     else:
         final += '+' + word
 
+        
 link = 'https://www.imdb.com/find?q='
 link = link + final
+
 
 # print("Opening {} in browser.".format(link))
 
