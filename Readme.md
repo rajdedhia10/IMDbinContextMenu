@@ -21,7 +21,7 @@ A new tab will be opened on your browser and the movie's page will be searched f
 
 ## Installation
 1. Download the preferred varient from the [Download Link](https://github.com/rajdedhia10/IMDbinContextMenu/releases/)  
-Check FAQs section for guidance regarging varient
+(Check FAQs section for guidance regarging varient)
 2. Extract the downloaded zip file to `D:\IMDbinContextMenu`<br>
    Note: You can extract to any location you wish but you need the make changes to the **AddToRegistry.reg** and **search.bat** file
    eg. If you extract to `C:\Users\YourUsername\Downloads` then your files should look like this
