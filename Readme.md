@@ -10,6 +10,7 @@ Simple program to add `Search on IMDb` to your Windows 10 Context Menu to automa
 * [Credits](#credits)
 ---
 
+
 ## What is this
 A simple program that searches for IMDb page of a movie on your computer in just a couple of clicks.  
 You just need to right click on the media file of the movie and click the `Search on IMDb` button.  
