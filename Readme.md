@@ -8,10 +8,11 @@ Simple program to add `Search on IMDb` to your Windows 10 Context Menu to automa
 * [Bugs](#bugs)
 * [Probable Feature Additions](#probable-feature-additions)
 * [Credits](#credits)
+* [License](#license)
 ---
 
 
-## What is this
+## What is this:question:
 A simple program that searches for IMDb page of a movie on your computer in just a couple of clicks.  
 You just need to right click on the media file of the movie and click the `Search on IMDb` button.  
 A new tab will be opened on your browser and the movie's page will be searched for on IMDb.
@@ -20,7 +21,7 @@ A new tab will be opened on your browser and the movie's page will be searched f
 
 ---
 
-## Installation
+## Installation:wrench:
 1. Download the preferred varient from the [Download Link](https://github.com/rajdedhia10/IMDbinContextMenu/releases/)  
 (Check FAQs section for guidance regarging varient)
 2. Extract the downloaded zip file to `D:\IMDbinContextMenu`<br>
@@ -43,7 +44,7 @@ A new tab will be opened on your browser and the movie's page will be searched f
 4. Done, as simple as that
 ---
 
-## FAQs
+## FAQs:raising_hand:
 * Why does this exist?  
 A. Looking up a movie that you have on your system on IMDb in a lenghy process. This program exists to automate the process to just a couple of clicks.
 
@@ -55,18 +56,24 @@ A. Py varient if you have Python installed on your system
 A. Click on Start -> Type regedit -> Press Enter on Registry Editor -> Navigate to ```HKEY_CLASSES_ROOT\*\shell\Run script``` -> Delete ```Run script```
 ---
 
-## Bugs
+## Bugs:beetle:
 ~~* The program fails when year of the movie is enclosed in brackets
 eg: ```Movie.Name.(1999).720p.10bit.mp4```~~  
 Fixed. Thanks to [amogh-w](https://github.com/amogh-w)
 
 
-## Probable Feature Additions
+## Probable Feature Additions:thinking:
 Search on multiple Rating websites at once such as Metacritic, Rotten Tomatoes etc.
 
 ---
 
-## Credits
+## Credits:sparkles:
 [Auto PY to EXE](https://pypi.org/project/auto-py-to-exe/) is used to convert the python file to exe file
 
 For any doubts or suggestions you may Contact me on Telegram @[rajdedhia10](https://t.me/rajdedhia10)
+
+---
+
+## License:page_facing_up:
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](./LICENSE) file for details
