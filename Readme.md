@@ -1,4 +1,4 @@
-# IMDb-in-ContextMenu
+# IMDb-in-ContextMenu:cinema:
 Simple program to add `Search on IMDb` to your Windows 10 Context Menu to automate the task of searching for IMDb page of a movie that you have on your computer
 
 ---
