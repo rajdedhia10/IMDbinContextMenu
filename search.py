@@ -45,7 +45,8 @@ for word in temp:
 
         
 link = 'https://www.imdb.com/find?q='
-link = link + final
+onlyMovie = '&s=tt&ttype=ft&ref_=fn_ft'
+link = link + final + onlyMovie
 
 
 # print("Opening {} in browser.".format(link))
