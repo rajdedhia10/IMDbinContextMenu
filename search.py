@@ -43,7 +43,8 @@ for word in temp:
     else:
         final += '+' + word
 
-        
+#Can also add '&s=tt&ttype=tv&ref_=fn_tv' for only TV shows        
+
 link = 'https://www.imdb.com/find?q='
 onlyMovie = '&s=tt&ttype=ft&ref_=fn_ft'
 link = link + final + onlyMovie
