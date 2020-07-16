@@ -46,7 +46,7 @@ A new tab will be opened on your browser and the movie's page will be searched f
 
 ## FAQs :raising_hand:
 * Why does this exist?  
-A. Looking up a movie that you have on your system on IMDb in a lenghy process. This program exists to automate the process to just a couple of clicks.
+A. Looking up a movie that you have on your system on IMDb in a lengthy process. This program exists to automate the process to just a couple of clicks.
 
 * What varient should I download?  
 A. Py varient if you have Python installed on your system
